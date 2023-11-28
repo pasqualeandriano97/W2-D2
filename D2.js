@@ -48,6 +48,7 @@ let condition =
   number7 === 8 ||
   number6 + number7 === 8 ||
   number6 - number7 === 8;
+number7 - number6 === 8;
 if (condition === true) {
   console.log(
     "il valore di uno dei numeri interi è 8 oppure la loro addizione/sottrazione é uguale a 8"
